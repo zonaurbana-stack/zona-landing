@@ -1,0 +1,1853 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Adrogué",
+        "street": "Av Espora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.388673,
+          -34.795814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Adrogué",
+        "street": "Pellerano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.391135,
+          -34.798706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Aeropuerto Internacional Ezeiza",
+        "street": "Aeropuerto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.511556,
+          -34.813001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Aeropuerto Internacional Ezeiza",
+        "street": "barrio procrear"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.517831,
+          -34.791719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Alejandro Petión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.663795,
+          -34.973156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Burzaco",
+        "street": "Av Monteverde y espora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.384557,
+          -34.833868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Burzaco",
+        "street": "Ruta Prov 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3958854,
+          -34.8360373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51854,
+          -34.85099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51417,
+          -34.84885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51452,
+          -34.8487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51221,
+          -34.84756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51113,
+          -34.84707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50967,
+          -34.84655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50907,
+          -34.84594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5107,
+          -34.84628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50887,
+          -34.84452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51206,
+          -34.90657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51206,
+          -34.90718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51247,
+          -34.91052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5251,
+          -34.93664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.52537,
+          -34.93745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.52715,
+          -34.93992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.52722,
+          -34.94041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50603,
+          -34.8463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50563,
+          -34.84751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50456,
+          -34.85047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50303,
+          -34.85641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50268,
+          -34.86218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50262,
+          -34.8636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50238,
+          -34.8662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Avenida Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.504173,
+          -34.881426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Avenida Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50468,
+          -34.883752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Avenida Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.506437,
+          -34.889682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Avenida Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.507667,
+          -34.893665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Formosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5029689,
+          -34.8550843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Formosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5036209,
+          -34.8554544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Formosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5043995,
+          -34.8558241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Formosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5043995,
+          -34.8558241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Formosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5050969,
+          -34.8561723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Lacarra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.502753,
+          -34.864202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5064863,
+          -34.8452018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5063553,
+          -34.8457214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5059806,
+          -34.8464227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5051129,
+          -34.8487081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5040718,
+          -34.8515422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.503552,
+          -34.8529741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5034393,
+          -34.8536881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5027005,
+          -34.8604584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5026096,
+          -34.8619194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5025439,
+          -34.863314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5025093,
+          -34.864034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5025093,
+          -34.864034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5023374,
+          -34.8649603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5027936,
+          -34.8729077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5040656,
+          -34.8799837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.511962,
+          -34.907103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.512592,
+          -34.909256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.512043,
+          -34.906612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Mariano Castex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.512484,
+          -34.909725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Puente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.506,
+          -34.907057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Puente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.506,
+          -34.907057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "ruta 58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.499213,
+          -34.880515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Ruta Provincial 58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.506598,
+          -34.906498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Ruta Provincial 58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.494991,
+          -34.924384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Canning",
+        "street": "Ruta Provincial 58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.492045,
+          -34.928221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Carlos Spegazzini",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.60591,
+          -34.91975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Carlos Spegazzini",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.606,
+          -34.92012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Carlos Spegazzini",
+        "street": "estacion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.593971,
+          -34.909918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Carlos Spegazzini",
+        "street": "San Salvador de Jujuy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.618838,
+          -34.907484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "El Jagüel",
+        "street": "rotonda canning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.506496,
+          -34.843527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.507783,
+          -34.893478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.503029,
+          -34.857644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.503107,
+          -34.856588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "barrio procrear"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.511466,
+          -34.812928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "estacion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.524832,
+          -34.855953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "estacion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.524832,
+          -34.855953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "paseo de las luces"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.502922,
+          -34.856586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "paseo de las luces"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.50305,
+          -34.857573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "paseo de las luces"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.502847,
+          -34.857569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "rotonda canning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.506784,
+          -34.841758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "rotonda canning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.507521,
+          -34.845104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "rotonda canning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.506932,
+          -34.8444462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Ezeiza",
+        "street": "RP58;RP205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.506906,
+          -34.844597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Guernica",
+        "street": "Camino de las Latas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.434279,
+          -34.90555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.56136,
+          -34.88465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.56123,
+          -34.88436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55878,
+          -34.88245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55725,
+          -34.88147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55517,
+          -34.8798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55514,
+          -34.87958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55363,
+          -34.87843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5534,
+          -34.87844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55213,
+          -34.87745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55075,
+          -34.87617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55084,
+          -34.87643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.54345,
+          -34.87073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.54298,
+          -34.87011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.53615,
+          -34.8647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5338,
+          -34.86289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.53167,
+          -34.8612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "La Unión",
+        "street": "av"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.534473,
+          -34.8636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Lomas de Zamora",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.403592,
+          -34.766455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Lomas de Zamora",
+        "street": "Avenida Hipólito Yrigoyen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.402029,
+          -34.758703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de Lezama",
+        "street": "Ruta 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.922159,
+          -35.796993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de San Vicente",
+        "street": "16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.467829,
+          -34.964774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de San Vicente",
+        "street": "Ruta 58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.470318,
+          -34.944647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de Tordillo",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.3511646,
+          -36.4270844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de Tordillo",
+        "street": "ruta 11 km 240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.351165,
+          -36.427084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de Tordillo",
+        "street": "ruta 11 km 240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.351165,
+          -36.427084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de Tordillo",
+        "street": "ruta 11 km 247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.323528,
+          -36.489361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de Tordillo",
+        "street": "ruta 11 km 247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.326067,
+          -36.487572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de Tordillo",
+        "street": "ruta 11 km 247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.329467,
+          -36.485198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Partido de Tordillo",
+        "street": "ruta 11 km 247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.329467,
+          -36.485198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Rafael Calzada",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.364518,
+          -34.796004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Rafael Calzada",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.364134,
+          -34.795676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.58254,
+          -34.90099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.58264,
+          -34.90129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.57922,
+          -34.89863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5792,
+          -34.89841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.57733,
+          -34.89716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5773,
+          -34.89691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "130-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.595705,
+          -34.863925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "Blas Parera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.584073,
+          -34.878724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "ex-Ruta Provincial 52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.521528,
+          -34.931164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "ex-Ruta Provincial 52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.525409,
+          -34.937464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "ex-Ruta Provincial 52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.527231,
+          -34.9403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "ex-Ruta Provincial 52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.521728,
+          -34.931334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "ex-Ruta Provincial 52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.525389,
+          -34.937208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "ex-Ruta Provincial 52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.527496,
+          -34.940593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "ex-Ruta Provincial 52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.527231,
+          -34.9403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Tristán Suárez",
+        "street": "rotonda coto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.571842,
+          -34.893021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality": "Vicente Casares",
+        "street": "ruta 205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.650804,
+          -34.964253
+        ]
+      }
+    }
+  ]
+}

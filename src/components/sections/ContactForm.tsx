@@ -48,12 +48,7 @@ export function ContactForm() {
     }
 
     return (
-        <div className="p-6 md:p-8">
-            <div className="mb-8">
-                <h3 className="text-2xl font-bold text-white mb-2">Cotizar Campaña</h3>
-                <p className="text-neutral-400 text-sm">Completa el formulario y te contactaremos.</p>
-            </div>
-
+        <div>
             {status ? (
                 <div className="p-8 rounded-xl bg-green-500/10 border border-green-500/20 text-center">
                     <h3 className="text-xl font-bold text-green-400 mb-2">¡Mensaje Enviado!</h3>
@@ -73,7 +68,7 @@ export function ContactForm() {
                             {error}
                         </div>
                     )}
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div className="space-y-2">
                             <label htmlFor="name" className="text-xs font-medium text-neutral-400 uppercase">Nombre</label>
                             <Input id="name" name="name" className="bg-black/40 border-white/5" placeholder="Tu nombre" required />
@@ -82,19 +77,18 @@ export function ContactForm() {
                             <label htmlFor="company" className="text-xs font-medium text-neutral-400 uppercase">Empresa</label>
                             <Input id="company" name="company" className="bg-black/40 border-white/5" placeholder="Empresa" />
                         </div>
-                    </div>
-
-                    <div className="space-y-2">
-                        <label htmlFor="email" className="text-xs font-medium text-neutral-400 uppercase">Email</label>
-                        <Input id="email" name="email" type="email" className="bg-black/40 border-white/5" placeholder="tu@email.com" required />
+                        <div className="space-y-2">
+                            <label htmlFor="email" className="text-xs font-medium text-neutral-400 uppercase">Email</label>
+                            <Input id="email" name="email" type="email" className="bg-black/40 border-white/5" placeholder="tu@email.com" required />
+                        </div>
                     </div>
 
                     <div className="space-y-2">
                         <label htmlFor="message" className="text-xs font-medium text-neutral-400 uppercase">Mensaje</label>
-                        <Textarea id="message" name="message" className="bg-black/40 border-white/5 min-h-[100px]" placeholder="Detalles de la campaña..." />
+                        <Textarea id="message" name="message" className="bg-black/40 border-white/5 min-h-[140px]" placeholder="Detalles de la campaña..." />
                     </div>
 
-                    <Button type="submit" className="w-full" variant="accent" disabled={loading}>
+                    <Button type="submit" className="w-full md:w-auto md:px-10" variant="accent" disabled={loading}>
                         {loading ? "Enviando..." : "Enviar Solicitud"}
                     </Button>
                 </form>

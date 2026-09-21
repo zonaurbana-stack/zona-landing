@@ -4,6 +4,7 @@ import { SellYourSpace } from "@/components/sections/SellYourSpace";
 import { ContactMap } from "@/components/sections/ContactMap";
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
+import { LocationsMarquee } from "@/components/ui/LocationsMarquee";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Portfolio />
       <SellYourSpace />
+      <LocationsMarquee />
       <ContactMap />
       <WhatsAppButton />
       <Footer />

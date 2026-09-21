@@ -63,7 +63,7 @@ export function Hero() {
     }, []);
 
     return (
-        <section className="relative min-h-[90vh] flex flex-col justify-center bg-black overflow-hidden pt-20">
+        <section className="relative min-h-[90vh] flex flex-col justify-center bg-surface overflow-hidden pt-20">
             {/* Background Grid & Effects */}
             <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
                 {/* Main Background Image */}
@@ -73,7 +73,7 @@ export function Hero() {
                 />
 
                 {/* Overlays for Depth */}
-                <div className="absolute inset-0 bg-gradient-to-br from-black via-black/80 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-br from-surface via-surface/80 to-transparent" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,#1e3a8a_0%,transparent_70%)] opacity-20" />
             </div>
 
@@ -133,7 +133,7 @@ export function Hero() {
                         {/* Frames Decorative */}
                         <div className="absolute -inset-4 border border-white/5 rounded-[2rem] pointer-events-none" />
 
-                        <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 bg-neutral-900 shadow-2xl">
+                        <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 bg-surface-raised shadow-2xl">
                             <AnimatePresence mode="wait">
                                 <motion.div
                                     key={currentIndex}

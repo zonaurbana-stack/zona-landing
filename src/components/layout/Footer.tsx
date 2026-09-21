@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Footer() {
     return (
-        <footer className="bg-[#050505] border-t border-white/5 pt-20 pb-10 overflow-hidden">
+        <footer className="bg-surface-sunken border-t border-white/5 pt-20 pb-10 overflow-hidden">
             <div className="container px-6 md:px-12 xl:px-24 mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-20">
                     

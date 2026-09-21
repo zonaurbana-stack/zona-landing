@@ -7,6 +7,9 @@
   --color-brand-orange: var(--brand-orange);
   --color-brand-dark: var(--brand-dark);
   --color-brand-darker: var(--brand-darker);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-sunken: var(--surface-sunken);
   --font-sans: var(--font-inter);
   --font-display: var(--font-outfit);
 }
@@ -19,6 +22,21 @@
   --brand-orange: #71717a; /* Gray */
   --brand-dark: #18181b; /* Dark Gray */
   --brand-darker: #09090b; /* Black/Darker Gray */
+  /* Superficies: fondo de sección, tarjetas y footer */
+  --surface: #000000;
+  --surface-raised: #0a0a0a;
+  --surface-sunken: #050505;
+}
+
+/* Tema gris medio. Se activa con data-theme="gray" en <html> (layout.tsx);
+   sacando el atributo se vuelve al tema oscuro original. */
+[data-theme="gray"] {
+  --background: #3a3e46;
+  --brand-dark: #3a3e46;
+  --brand-darker: #32363d;
+  --surface: #3a3e46;
+  --surface-raised: #454a53;
+  --surface-sunken: #2e3137;
 }
 
 /* Oklch overrides for modern browsers */
@@ -80,4 +98,16 @@ h4,
 h5,
 h6 {
   font-family: var(--font-outfit), sans-serif;
+}
+/* Estilos de teselas del mapa (OSM, sin API key). Se elige en MapComponent: TILE_STYLE */
+.map-tiles-dark {
+  filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9) saturate(0.35);
+}
+
+.map-tiles-light {
+  filter: grayscale(0.85) brightness(1.02) contrast(0.9);
+}
+
+.map-tiles-gray {
+  filter: grayscale(1) brightness(0.72) contrast(0.95);
 }
