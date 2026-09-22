@@ -46,7 +46,62 @@ const slides = [
         impact: "+1.2M",
         tag: "DISPONIBLE"
     },
-
+    {
+        image: "/via-publica/portada.jpeg",
+        title: "Stand ICBC",
+        location: "Mantenimiento Integral",
+        format: "Cartelería LED Indoor",
+        impact: "+300K",
+        tag: "PREMIUM"
+    },
+    {
+        image: "/via-publica/po.jpeg",
+        title: "Instalación Detallada",
+        location: "Stand ICBC",
+        format: "Pantalla LED",
+        impact: "+300K",
+        tag: "PREMIUM"
+    },
+    {
+        image: "/via-publica/po1.jpeg",
+        title: "Sector Cowork",
+        location: "Stand ICBC",
+        format: "Cajeros Automáticos",
+        impact: "+300K",
+        tag: "PREMIUM"
+    },
+    {
+        image: "/via-publica/po3.jpeg",
+        title: "Campaña Silo Park",
+        location: "Canning",
+        format: "Cartel Vía Pública",
+        impact: "+600K",
+        tag: "DISPONIBLE"
+    },
+    {
+        image: "/via-publica/trocha.jpeg",
+        title: "Paseo La Trocha",
+        location: "Acceso Principal",
+        format: "Letras Corpóreas",
+        impact: "+400K",
+        tag: "DISPONIBLE"
+    },
+    {
+        image: "/via-publica/trocha2.jpeg",
+        title: "Producción e Instalación",
+        location: "Paseo La Trocha",
+        format: "Letras Corpóreas",
+        impact: "+400K",
+        tag: "DISPONIBLE"
+    },
+    {
+        image: "/via-publica/trocha3.jpeg",
+        title: "Cartelería Vía Pública",
+        location: "Canning",
+        format: "Diseño y Producción",
+        impact: "+600K",
+        tag: "PREMIUM"
+    },
 
 ];
 
