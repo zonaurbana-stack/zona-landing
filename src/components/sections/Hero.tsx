@@ -29,23 +29,7 @@ const slides = [
         impact: "+1M",
         tag: "PREMIUM"
     },
-    {
-        image: "/via-publica/pantalla.jpg",
-        title: "Impacto Nocturno",
-        location: "Principales Accesos",
-        format: "Iluminación LED Front",
-        impact: "+1M",
-        tag: "PREMIUM"
-    },
-
-    {
-        image: "/via-publica/mac3.jpeg",
-        title: "Zona Comercial",
-        location: "Ezeiza",
-        format: "Skyscraper 25x15m",
-        impact: "+1.2M",
-        tag: "DISPONIBLE"
-    },
+    
     {
         image: "/via-publica/portada.jpeg",
         title: "Stand ICBC",
@@ -54,14 +38,28 @@ const slides = [
         impact: "+300K",
         tag: "PREMIUM"
     },
+   
+
     {
-        image: "/via-publica/po.jpeg",
-        title: "Instalación Detallada",
-        location: "Stand ICBC",
-        format: "Pantalla LED",
-        impact: "+300K",
+        image: "/via-publica/mac3.jpeg",
+        title: "Zona Comercial",
+        location: "Ezeiza",
+        format: "Skyscraper 25x15m",
+        impact: "+1.2M",
+        tag: "DISPONIBLE"
+    }, 
+    
+    
+    {
+        image: "/via-publica/pantalla.jpg",
+        title: "Impacto Nocturno",
+        location: "Principales Accesos",
+        format: "Iluminación LED Front",
+        impact: "+1M",
         tag: "PREMIUM"
     },
+    
+    
     {
         image: "/via-publica/po1.jpeg",
         title: "Sector Cowork",
@@ -70,14 +68,7 @@ const slides = [
         impact: "+300K",
         tag: "PREMIUM"
     },
-    {
-        image: "/via-publica/po3.jpeg",
-        title: "Campaña Silo Park",
-        location: "Canning",
-        format: "Cartel Vía Pública",
-        impact: "+600K",
-        tag: "DISPONIBLE"
-    },
+   
     {
         image: "/via-publica/trocha.jpeg",
         title: "Paseo La Trocha",
@@ -108,6 +99,7 @@ const slides = [
 export function Hero() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isLoaded, setIsLoaded] = useState(false);
+    const activeSlide = slides[currentIndex % slides.length];
 
     useEffect(() => {
         setIsLoaded(true);
@@ -200,20 +192,20 @@ export function Hero() {
                                 >
                                     <div
                                         className="absolute inset-0 bg-cover bg-center"
-                                        style={{ backgroundImage: `url(${slides[currentIndex].image})` }}
+                                        style={{ backgroundImage: `url(${activeSlide.image})` }}
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
 
                                     {/* Slide Content */}
                                     <div className="absolute bottom-8 left-8 right-8">
                                         <span className="px-3 py-1 bg-brand-blue text-[10px] font-black text-white uppercase tracking-widest rounded-sm mb-4 inline-block">
-                                            {slides[currentIndex].tag}
+                                            {activeSlide.tag}
                                         </span>
                                         <h3 className="text-2xl md:text-3xl font-black text-white uppercase tracking-tight mb-1">
-                                            {slides[currentIndex].title}
+                                            {activeSlide.title}
                                         </h3>
                                         <p className="text-sm text-white/50 font-medium uppercase tracking-widest">
-                                            {slides[currentIndex].location}
+                                            {activeSlide.location}
                                         </p>
                                     </div>
                                 </motion.div>
