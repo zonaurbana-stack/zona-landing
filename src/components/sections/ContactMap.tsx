@@ -2,7 +2,7 @@
 
 import { ContactForm } from "./ContactForm";
 import dynamic from "next/dynamic";
-import { COVERAGE_RADIUS_M, coveragePoints, localitiesCount } from "@/lib/coverage";
+import { COVERAGE_RADIUS_M, countLocalities, type CoveragePoint } from "@/lib/coverage";
 
 const MapComponent = dynamic(() => import("@/components/ui/MapComponent"), {
     ssr: false,
@@ -16,7 +16,11 @@ const MapComponent = dynamic(() => import("@/components/ui/MapComponent"), {
     )
 });
 
-export function ContactMap() {
+interface ContactMapProps {
+    points: CoveragePoint[];
+}
+
+export function ContactMap({ points }: ContactMapProps) {
     return (
         <section className="relative py-32 overflow-hidden bg-surface" id="mapa">
             {/* Cyberpunk Grid Background */}
@@ -46,7 +50,7 @@ export function ContactMap() {
                     <div className="relative">
                         <div className="absolute -inset-0.5 bg-gradient-to-r from-brand-blue/50 to-transparent opacity-20 blur-sm rounded-sm" />
                         <div className="relative h-[520px] md:h-[720px] w-full bg-surface-raised border border-white/5 rounded-sm overflow-hidden group">
-                            <MapComponent />
+                            <MapComponent points={points} />
                             
                             {/* Tech Overlays */}
                             <div className="absolute top-6 left-6 z-[1000] space-y-2 pointer-events-none">
@@ -57,7 +61,7 @@ export function ContactMap() {
                                     </div>
                                 </div>
                                 <div className="px-4 py-2 bg-black/40 backdrop-blur-md border border-white/5 rounded-sm">
-                                    <span className="text-[8px] font-bold text-white/40 uppercase tracking-widest">{localitiesCount} localidades</span>
+                                    <span className="text-[8px] font-bold text-white/40 uppercase tracking-widest">{countLocalities(points)} localidades</span>
                                 </div>
                             </div>
 
@@ -70,7 +74,7 @@ export function ContactMap() {
                                             <div className="w-2 h-2 rounded-full bg-brand-blue" />
                                             <span className="text-xs text-white/60 uppercase font-bold tracking-tighter">Cartel</span>
                                         </div>
-                                        <span className="text-[10px] text-white/20">{coveragePoints.length} UNITS</span>
+                                        <span className="text-[10px] text-white/20">{points.length} UNITS</span>
                                     </div>
                                     <div className="flex items-center justify-between group/item">
                                         <div className="flex items-center gap-3">

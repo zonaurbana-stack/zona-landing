@@ -1,11 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { coverageLabels, coveragePoints } from "@/lib/coverage";
+import { coverageLabels, type CoveragePoint } from "@/lib/coverage";
 
-const labels = coverageLabels(coveragePoints);
+interface LocationsMarqueeProps {
+    points: CoveragePoint[];
+}
 
-export function LocationsMarquee() {
+export function LocationsMarquee({ points }: LocationsMarqueeProps) {
+    const labels = coverageLabels(points);
+
     return (
         <div className="relative overflow-hidden border-y border-white/5 py-5 bg-white/[0.01] backdrop-blur-sm">
             <motion.div

@@ -2,7 +2,7 @@
 
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { coveragePoints } from "@/lib/coverage";
+import type { CoveragePoint } from "@/lib/coverage";
 import { ClusteredPins } from "./ClusteredPins";
 import { CoverageRadius } from "./CoverageRadius";
 
@@ -15,7 +15,11 @@ const INITIAL_ZOOM = 11;
 // Las clases están en globals.css; para volver atrás alcanza con cambiar este valor.
 const TILE_STYLE: "dark" | "gray" | "light" = "dark";
 
-export default function MapComponent() {
+interface MapComponentProps {
+    points: CoveragePoint[];
+}
+
+export default function MapComponent({ points }: MapComponentProps) {
     return (
         <MapContainer
             center={INITIAL_CENTER}
@@ -30,8 +34,8 @@ export default function MapComponent() {
                 className={`map-tiles-${TILE_STYLE}`}
             />
 
-            <CoverageRadius points={coveragePoints} />
-            <ClusteredPins points={coveragePoints} />
+            <CoverageRadius points={points} />
+            <ClusteredPins points={points} />
         </MapContainer>
     );
 }

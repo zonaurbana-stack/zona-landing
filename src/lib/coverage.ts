@@ -27,7 +27,42 @@ export const coveragePoints: CoveragePoint[] = (raw.features as GeoFeature[])
         pos: [f.geometry.coordinates[1], f.geometry.coordinates[0]],
     }));
 
-export const localitiesCount = new Set(coveragePoints.map((p) => p.locality)).size;
+export function countLocalities(points: CoveragePoint[]) {
+    return new Set(points.map((p) => p.locality)).size;
+}
+
+interface RawLocation {
+    id: number;
+    locality: string;
+    street: string;
+    latitude: string;
+    longitude: string;
+}
+
+/** Trae los puntos live del backend de Sistema Zona; si no hay API URL, falla o no trae nada, usa el fallback estático. */
+export async function getCoveragePoints(): Promise<CoveragePoint[]> {
+    const apiUrl = process.env.SISTEMA_ZONA_API_URL;
+    if (!apiUrl) return coveragePoints;
+
+    try {
+        const res = await fetch(`${apiUrl}/api/v1/public/locations/`, {
+            next: { revalidate: 86400 }, // 1 vez por día: no tiene sentido pegarle más seguido a un mapa de terrenos que casi no cambia
+        });
+        if (!res.ok) return coveragePoints;
+
+        const data: RawLocation[] = await res.json();
+        if (!data.length) return coveragePoints;
+
+        return data.map((loc) => ({
+            id: loc.id,
+            locality: loc.locality,
+            street: loc.street,
+            pos: [Number(loc.latitude), Number(loc.longitude)] as LatLng,
+        }));
+    } catch {
+        return coveragePoints; // backend caído o sin red: la landing sigue andando con los datos locales
+    }
+}
 
 const ROUTE_RE = /\b(?:ruta|rp|rn)\s*(?:provincial|prov\.?|nacional)?\s*(\d+)/gi;
 
