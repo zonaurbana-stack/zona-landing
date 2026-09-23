@@ -1,9 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { SellSpaceModal } from "@/components/ui/SellSpaceModal";
 
 export const SellYourSpace = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <section className="relative py-24 overflow-hidden" id="ofrece">
             {/* Background with gradient darker than main bg to separate sections */}
@@ -28,15 +32,14 @@ export const SellYourSpace = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                            <a
-                                href="https://wa.me/5491163828772"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="group relative inline-flex items-center gap-2 px-8 py-4 bg-brand-blue text-white rounded-full font-medium transition-all hover:bg-brand-blue/90 hover:scale-105 active:scale-95 shadow-[0_0_20px_-5px_rgba(var(--brand-blue),0.5)]"
+                            <button
+                                type="button"
+                                onClick={() => setIsModalOpen(true)}
+                                className="group relative inline-flex items-center gap-2 px-8 py-4 bg-brand-blue text-white rounded-full font-medium transition-all hover:bg-brand-blue/90 hover:scale-105 active:scale-95 shadow-[0_0_20px_-5px_rgba(var(--brand-blue),0.5)] cursor-pointer"
                             >
                                 <span>Vender mi espacio</span>
                                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                            </a>
+                            </button>
 
                             <a
                                 href="#contact"
@@ -48,6 +51,12 @@ export const SellYourSpace = () => {
                     </motion.div>
                 </div>
             </div>
+
+            <SellSpaceModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+            />
         </section>
     );
 };
+
