@@ -7,14 +7,18 @@ import { Navbar } from "@/components/layout/Navbar";
 import { LocationsMarquee } from "@/components/ui/LocationsMarquee";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 import { getCoveragePoints } from "@/lib/coverage";
+import { getBillboardFormats } from "@/lib/formats";
 
 export default async function Home() {
-  const points = await getCoveragePoints();
+  const [points, formats] = await Promise.all([
+    getCoveragePoints(),
+    getBillboardFormats(),
+  ]);
 
   return (
     <main className="flex min-h-screen flex-col bg-brand-dark text-white selection:bg-brand-blue selection:text-white">
       <Navbar />
-      <Hero />
+      <Hero formats={formats} />
       <Portfolio />
       <SellYourSpace />
       <LocationsMarquee points={points} />

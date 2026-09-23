@@ -50,7 +50,19 @@ export function Footer() {
                             </a>
                             <div className="pt-2">
                                 <p className="text-[10px] text-neutral-600 uppercase font-black mb-1">Ubicación</p>
-                                <p className="text-sm text-neutral-300">Ezeiza, Buenos Aires, Argentina</p>
+                                <a 
+                                    href="https://maps.google.com/?q=Trieste+110,+Union+Ferroviaria,+Buenos+Aires"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="group/location block"
+                                >
+                                    <p className="text-sm text-neutral-300 group-hover/location:text-brand-blue transition-colors font-medium">
+                                        Trieste 110, Ezeiza
+                                    </p>
+                                    <p className="text-[10px] text-brand-blue/80 group-hover/location:text-brand-blue font-bold uppercase tracking-widest mt-1 transition-colors">
+                                        Cómo llegar →
+                                    </p>
+                                </a>
                             </div>
                         </div>
                     </div>
