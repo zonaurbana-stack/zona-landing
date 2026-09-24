@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { TrustedBrands } from "@/components/ui/TrustedBrands";
 import { BillboardFormat } from "@/lib/formats";
 import { AvailableFormatsStrip } from "@/components/ui/AvailableFormatsStrip";
+import { LiveAdScreen } from "@/components/ui/LiveAdScreen";
 
 const slides = [
     {
@@ -107,6 +108,7 @@ export function Hero({ formats = [] }: HeroProps) {
     const [isLoaded] = useState(true);
     const activeSlide = slides[currentIndex % slides.length];
     const hasFormats = formats && formats.length > 0;
+    const activeFormats = formats.reduce((sum, f) => sum + f.count, 0);
 
     useEffect(() => {
         const timer = setInterval(() => {
@@ -128,6 +130,14 @@ export function Hero({ formats = [] }: HeroProps) {
                 {/* Overlays for Depth */}
                 <div className="absolute inset-0 bg-gradient-to-br from-surface via-surface/80 to-transparent" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,#1e3a8a_0%,transparent_70%)] opacity-20" />
+            </div>
+
+            {/* Pantalla digital: ocupa el hueco a la derecha del container en pantallas anchas */}
+            <div
+                className="hidden min-[110rem]:block absolute z-10 top-28 w-[clamp(200px,calc(100vw-1536px-96px),320px)]"
+                style={{ right: "max(1.5rem, calc((100vw - 1536px - clamp(200px, calc(100vw - 1536px - 96px), 320px)) / 2))" }}
+            >
+                <LiveAdScreen activeFormats={activeFormats} href="#mapa" />
             </div>
 
             <div className="container relative z-10 px-6 md:px-12 xl:px-24 py-12 lg:py-20">
@@ -200,6 +210,12 @@ export function Hero({ formats = [] }: HeroProps) {
                         >
                             {/* Frames Decorative */}
                             <div className="absolute -inset-4 border border-white/5 rounded-[2rem] pointer-events-none" />
+
+                            {/* Pantalla digital en notebooks: flota sobre la esquina del carrusel.
+                                En pantallas anchas va arriba a la derecha, fuera del container. */}
+                            <div className="hidden lg:block min-[110rem]:hidden absolute z-20 -top-12 -right-6 xl:-right-10 w-[210px] xl:w-[240px]">
+                                <LiveAdScreen activeFormats={activeFormats} href="#mapa" showPole={false} />
+                            </div>
 
                             <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 bg-surface-raised shadow-2xl">
                                 <AnimatePresence mode="wait">
