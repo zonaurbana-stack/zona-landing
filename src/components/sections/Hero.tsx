@@ -211,9 +211,11 @@ export function Hero({ formats = [] }: HeroProps) {
                                         transition={{ duration: 0.8 }}
                                         className="absolute inset-0"
                                     >
-                                        <div
-                                            className="absolute inset-0 bg-cover bg-center"
-                                            style={{ backgroundImage: `url(${activeSlide.image})` }}
+                                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                                        <img
+                                            src={activeSlide.image}
+                                            alt={activeSlide.title}
+                                            className="absolute inset-0 w-full h-full object-cover object-center"
                                         />
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
 
