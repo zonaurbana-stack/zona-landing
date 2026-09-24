@@ -4,9 +4,11 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { SellSpaceModal } from "@/components/ui/SellSpaceModal";
+import { SellSpaceInfoModal } from "@/components/ui/SellSpaceInfoModal";
 
 export const SellYourSpace = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
 
     return (
         <section className="relative py-24 overflow-hidden" id="ofrece">
@@ -41,12 +43,13 @@ export const SellYourSpace = () => {
                                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                             </button>
 
-                            <a
-                                href="#contact"
-                                className="px-8 py-4 text-white/70 hover:text-white transition-colors font-medium border border-white/10 rounded-full hover:bg-white/5"
+                            <button
+                                type="button"
+                                onClick={() => setIsInfoModalOpen(true)}
+                                className="px-8 py-4 text-white/70 hover:text-white transition-colors font-medium border border-white/10 rounded-full hover:bg-white/5 cursor-pointer"
                             >
                                 Más información
-                            </a>
+                            </button>
                         </div>
                     </motion.div>
                 </div>
@@ -55,6 +58,15 @@ export const SellYourSpace = () => {
             <SellSpaceModal
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
+            />
+
+            <SellSpaceInfoModal
+                isOpen={isInfoModalOpen}
+                onClose={() => setIsInfoModalOpen(false)}
+                onOpenForm={() => {
+                    setIsInfoModalOpen(false);
+                    setIsModalOpen(true);
+                }}
             />
         </section>
     );
