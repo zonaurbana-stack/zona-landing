@@ -27,7 +27,7 @@ const brands = [
     { name: "Mostaza", logo: "/logos/Mostaza3.svg" },
 
     { name: "Toribio Achaval", logo: "/logos/torivio.png" },
-    { name: "Guapaletas", logo: "/logos/guapa.png", scale: 1.4, opacity: 1 },
+    { name: "Guapaletas", logo: "/logos/guapa.png", scale: 1.4, brightness: 0.85 },
     { name: "Persicco", logo: "/logos/Logo_Persicco.jpeg", scale: 0.8 },
     { name: "BNA", logo: "/logos/bna.jpg.webp" },
     { name: "Alikal", logo: "/logos/alikal.jpg" },
@@ -42,6 +42,7 @@ function Dot() {
 function BrandItem({ brand }: { brand: typeof brands[0] }) {
     const scale = (brand as any).scale || 1;
     const opacity = (brand as any).opacity ?? 0.9;
+    const brightness = (brand as any).brightness ?? 1.1;
 
     return (
         <div
@@ -50,8 +51,8 @@ function BrandItem({ brand }: { brand: typeof brands[0] }) {
         >
             {brand.logo ? (
                 <div
-                    className="relative w-32 h-12 md:w-48 md:h-24 hover:opacity-100 transition-all duration-500 filter brightness-110 contrast-125"
-                    style={{ opacity }}
+                    className="relative w-32 h-12 md:w-48 md:h-24 hover:opacity-100 transition-all duration-500"
+                    style={{ opacity, filter: `brightness(${brightness}) contrast(1.25)` }}
                 >
                     <img
                         src={brand.logo}
