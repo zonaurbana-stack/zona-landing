@@ -3,6 +3,7 @@
 import { motion, useInView, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useRef, useState } from "react";
 import { WorksModal, worksImages } from "@/components/ui/WorksModal";
+import { TrustedBrands } from "@/components/ui/TrustedBrands";
 import { ArrowUpRight, Eye, Sparkles, MapPin, TrendingUp, ChevronLeft, ChevronRight } from "lucide-react";
 
 const services = [
@@ -332,6 +333,11 @@ export function Portfolio() {
                     onClose={() => setActiveModal(null)}
                 />
             )}
+
+            {/* Marcas que confían (solo celular; en desktop va en el Hero) */}
+            <div className="lg:hidden max-w-7xl mx-auto px-4 sm:px-6 mb-10">
+                <TrustedBrands />
+            </div>
 
             {/* Header Marquee */}
             <div className="relative overflow-hidden border-y border-white/5 py-5 bg-white/[0.01] backdrop-blur-sm mb-10">

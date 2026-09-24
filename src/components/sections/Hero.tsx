@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { BrandMarquee } from "@/components/ui/BrandMarquee";
+import { TrustedBrands } from "@/components/ui/TrustedBrands";
 import { BillboardFormat } from "@/lib/formats";
 import { AvailableFormatsStrip } from "@/components/ui/AvailableFormatsStrip";
 
@@ -131,13 +131,13 @@ export function Hero({ formats = [] }: HeroProps) {
             </div>
 
             <div className="container relative z-10 px-6 md:px-12 xl:px-24 py-12 lg:py-20">
-                {/* TOP: AVAILABLE FORMATS LIVE */}
+                {/* TOP (desktop): AVAILABLE FORMATS LIVE — en celular va debajo del carrusel */}
                 {hasFormats && (
                     <motion.div
                         initial={{ opacity: 0, y: -10 }}
                         animate={isLoaded ? { opacity: 1, y: 0 } : {}}
                         transition={{ duration: 0.8, delay: 0.1 }}
-                        className="mb-10 lg:mb-14"
+                        className="hidden lg:block mb-14"
                     >
                         <AvailableFormatsStrip formats={formats} />
                     </motion.div>
@@ -250,19 +250,21 @@ export function Hero({ formats = [] }: HeroProps) {
                     </div>
                 </div>
 
-                {/* BOTTOM: BRANDS MARQUEE */}
+                {/* MOBILE: AVAILABLE FORMATS LIVE */}
+                {hasFormats && (
+                    <div className="lg:hidden mt-16">
+                        <AvailableFormatsStrip formats={formats} />
+                    </div>
+                )}
+
+                {/* BOTTOM (desktop): BRANDS MARQUEE — en celular va en Portfolio */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={isLoaded ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.8, delay: 0.8 }}
-                    className="mt-16 lg:mt-24 pt-12 border-t border-white/5 space-y-8"
+                    className="hidden lg:block mt-24 pt-12 border-t border-white/5"
                 >
-                    <div className="flex items-center gap-4">
-                        <span className="text-[10px] font-black uppercase tracking-[0.4em] text-brand-blue">Marcas que confían</span>
-                        <div className="h-px flex-1 bg-gradient-to-r from-white/10 to-transparent" />
-                    </div>
-
-                    <BrandMarquee />
+                    <TrustedBrands />
                 </motion.div>
             </div>
 
