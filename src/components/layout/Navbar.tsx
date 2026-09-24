@@ -27,8 +27,8 @@ export function Navbar() {
             )}
         >
             <div className="w-full px-4 md:px-8 flex items-center justify-between">
-                <Link href="/" className="flex items-center group">
-                    <div className="relative w-40 h-14 md:w-56 md:h-16 group-hover:scale-105 transition-transform duration-300">
+                <Link href="/" className="flex items-center gap-2.5 sm:gap-3.5 group">
+                    <div className="relative w-36 h-12 sm:w-44 sm:h-14 md:w-56 md:h-16 group-hover:scale-105 transition-transform duration-300">
                         <Image 
                             src="/logo.jpeg" 
                             alt="Zona Urbana" 
@@ -37,7 +37,15 @@ export function Navbar() {
                             priority 
                         />
                     </div>
-
+                    <div className="h-7 sm:h-8 md:h-10 w-[1px] bg-white/20" />
+                    <div className="relative w-7 h-9 sm:w-8 sm:h-11 md:w-10 md:h-13 shrink-0 group-hover:scale-105 transition-transform duration-300">
+                        <Image 
+                            src="/aca-te-ven-bien-white.svg" 
+                            alt="Acá te ven bien" 
+                            fill 
+                            className="object-contain" 
+                        />
+                    </div>
                 </Link>
 
                 <div className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-300">

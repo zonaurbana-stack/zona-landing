@@ -11,13 +11,22 @@ export function Footer() {
                     
                     {/* Branding */}
                     <div className="space-y-6">
-                        <div className="flex items-center gap-2">
-                            <div className="relative w-40 h-14 md:w-48 md:h-16">
+                        <div className="flex items-center gap-3">
+                            <div className="relative w-36 h-12 md:w-44 md:h-14">
                                 <Image 
                                     src="/logo.jpeg" 
                                     alt="Zona Urbana" 
                                     fill 
                                     className="object-contain object-left" 
+                                />
+                            </div>
+                            <div className="h-8 w-[1px] bg-white/20" />
+                            <div className="relative w-8 h-10 shrink-0">
+                                <Image 
+                                    src="/aca-te-ven-bien-white.svg" 
+                                    alt="Acá te ven bien" 
+                                    fill 
+                                    className="object-contain" 
                                 />
                             </div>
                         </div>
