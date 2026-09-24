@@ -95,10 +95,13 @@ export function Footer() {
                     <p className="text-[10px] uppercase font-bold tracking-widest text-neutral-600">
                         © {new Date().getFullYear()} ZONA URBANA PUBLICIDAD. TODOS LOS DERECHOS RESERVADOS.
                     </p>
-                    <div className="flex items-center gap-2 grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
-                        <span className="text-[9px] font-black uppercase tracking-tighter text-neutral-400">Desarrollado por</span>
-                        <span className="text-[10px] font-black text-white tracking-widest">M.VAGLIVIELLO</span>
-                    </div>
+                    <a
+                        href="mailto:vaglimatias@gmail.com"
+                        className="flex items-center gap-2 grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500 group"
+                    >
+                        <span className="text-[9px] font-black uppercase tracking-tighter text-neutral-400 group-hover:text-brand-blue transition-colors">Full Stack Developer</span>
+                        <span className="text-[10px] font-black text-white tracking-widest group-hover:text-brand-blue transition-colors">Matías Vagliviello</span>
+                    </a>
                 </div>
             </div>
         </footer>
