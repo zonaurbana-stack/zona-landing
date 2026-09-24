@@ -80,7 +80,7 @@ export function Footer() {
                     <div className="space-y-6">
                         <h4 className="text-xs font-black uppercase tracking-[0.3em] text-white/40">Redes Sociales</h4>
                         <div className="flex items-center gap-4">
-                            <SocialLink href="https://www.instagram.com/zonaurbanapublicidad?igsh=YTdjenh4djdvaTk=" icon="instagram" />
+                            <SocialLink href="https://www.instagram.com/zonaurbana.producciones" icon="instagram" />
                             <SocialLink href="https://www.tiktok.com/@zona.urbana676?_r=1&_t=ZS-96KIvI6wPL6" icon="tiktok" />
                         </div>
                         <div className="pt-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
