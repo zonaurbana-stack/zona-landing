@@ -23,6 +23,31 @@ const slides = [
         format: "Monoposte 10x5m",
         impact: "+500K",
         tag: "DISPONIBLE"
+    },  
+    
+    {
+        image: "/via-publica/refuj2.jpg",
+        title: "Refugio Zona Urbana",
+        location: "Canning",
+        format: "Refugio Iluminado",
+        impact: "+400K",
+        tag: "DISPONIBLE"
+    },
+    {
+        image: "/via-publica/automostaza.jpg",
+        title: "Auto Mostaza",
+        location: "Castex y Terrarosa",
+        format: "Monoposte Gran Formato",
+        impact: "+800K",
+        tag: "PREMIUM"
+    },
+    {
+        image: "/via-publica/amarazul.jpg",
+        title: "Amar Azul & Damas Gratis",
+        location: "Espora y Mitre, Adrogué",
+        format: "Cartelería + Pantalla LED",
+        impact: "+600K",
+        tag: "DISPONIBLE"
     },
     {
         image: "/via-publica/cartepubli.jpeg",
@@ -88,14 +113,8 @@ const slides = [
         impact: "+400K",
         tag: "DISPONIBLE"
     },
-    {
-        image: "/via-publica/trocha3.jpeg",
-        title: "Cartelería Vía Pública",
-        location: "Canning",
-        format: "Diseño y Producción",
-        impact: "+600K",
-        tag: "PREMIUM"
-    },
+   
+   
 
 ];
 
