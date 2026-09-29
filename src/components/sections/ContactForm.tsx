@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 import { useActionState } from "react";
 import { submitContactForm, type ContactFormState } from "@/app/actions";
+import { HoneypotField } from "@/components/ui/HoneypotField";
 
 const initialState: ContactFormState = { success: false, message: "" };
 
@@ -21,6 +22,7 @@ export function ContactForm() {
                 </div>
             ) : (
                 <form action={formAction} className="space-y-4">
+                    <HoneypotField />
                     {state.message && (
                         <div className="p-3 rounded-lg bg-red-500/10 border border-red-500/20 text-red-400 text-xs">
                             {state.message}

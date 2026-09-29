@@ -6,6 +6,7 @@ import { X, CheckCircle2, MessageCircle, Building2, MapPin, Phone, Mail, User, S
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { submitSpaceLead, type ContactFormState } from "@/app/actions";
+import { HoneypotField } from "@/components/ui/HoneypotField";
 
 interface SellSpaceModalProps {
     isOpen: boolean;
@@ -118,6 +119,7 @@ export function SellSpaceModal({ isOpen, onClose }: SellSpaceModalProps) {
                                 </motion.div>
                             ) : (
                                 <form action={formAction} className="space-y-4 relative z-10">
+                                    <HoneypotField />
                                     {state.message && (
                                         <div className="p-3.5 rounded-lg bg-red-500/15 border border-red-500/30 text-red-300 text-sm font-medium">
                                             {state.message}

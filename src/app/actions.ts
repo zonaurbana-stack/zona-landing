@@ -1,14 +1,25 @@
 "use server";
 
+import { HONEYPOT_FIELD } from "@/components/ui/HoneypotField";
+
 export interface ContactFormState {
     success: boolean;
     message: string;
+}
+
+// Un bot llenó el campo trampa. Se le responde como si hubiera salido bien
+// para que no aprenda a esquivarlo; el envío no llega al ERP.
+function isHoneypotFilled(formData: FormData): boolean {
+    return ((formData.get(HONEYPOT_FIELD) as string) || "").trim() !== "";
 }
 
 export async function submitContactForm(
     _prevState: ContactFormState,
     formData: FormData
 ): Promise<ContactFormState> {
+    if (isHoneypotFilled(formData)) {
+        return { success: true, message: "¡Gracias! Recibimos tu consulta y te contactaremos pronto." };
+    }
     const name = (formData.get("name") as string)?.trim();
     const email = (formData.get("email") as string)?.trim();
     const company = (formData.get("company") as string) || "";
@@ -57,6 +68,12 @@ export async function submitSpaceLead(
     _prevState: ContactFormState,
     formData: FormData
 ): Promise<ContactFormState> {
+    if (isHoneypotFilled(formData)) {
+        return {
+            success: true,
+            message: "¡Excelente! Recibimos los datos de tu espacio. Nuestro equipo de tasación y desarrollo se pondrá en contacto a la brevedad.",
+        };
+    }
     const name = (formData.get("name") as string)?.trim();
     const email = (formData.get("email") as string)?.trim();
     const phone = (formData.get("phone") as string)?.trim() || "";
