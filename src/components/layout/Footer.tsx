@@ -53,9 +53,9 @@ export function Footer() {
                     <div className="space-y-6">
                         <h4 className="text-xs font-black uppercase tracking-[0.3em] text-white/40">Contacto</h4>
                         <div className="space-y-4">
-                            <a href="mailto:contacto@zonaurbana.com.ar" className="block group">
+                            <a href="mailto:zonaurbanapublicidad@gmail.com" className="block group">
                                 <p className="text-[10px] text-neutral-600 uppercase font-black mb-1">Email General</p>
-                                <p className="text-sm text-neutral-300 group-hover:text-brand-blue transition-colors font-medium">contacto@zonaurbana.com.ar</p>
+                                <p className="text-sm text-neutral-300 group-hover:text-brand-blue transition-colors font-medium">zonaurbanapublicidad@gmail.com</p>
                             </a>
                             <div className="pt-2">
                                 <p className="text-[10px] text-neutral-600 uppercase font-black mb-1">Ubicación</p>
