@@ -4,14 +4,19 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
-import { useActionState } from "react";
+import { useActionState, useEffect } from "react";
 import { submitContactForm, type ContactFormState } from "@/app/actions";
 import { HoneypotField } from "@/components/ui/HoneypotField";
+import { trackEvent } from "@/lib/analytics";
 
 const initialState: ContactFormState = { success: false, message: "" };
 
 export function ContactForm() {
     const [state, formAction, isPending] = useActionState(submitContactForm, initialState);
+
+    useEffect(() => {
+        if (state.success) trackEvent("generate_lead", { form: "contacto" });
+    }, [state.success]);
 
     return (
         <div>

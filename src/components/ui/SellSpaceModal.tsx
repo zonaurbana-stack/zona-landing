@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { submitSpaceLead, type ContactFormState } from "@/app/actions";
 import { HoneypotField } from "@/components/ui/HoneypotField";
+import { trackEvent } from "@/lib/analytics";
 
 interface SellSpaceModalProps {
     isOpen: boolean;
@@ -17,6 +18,10 @@ const initialState: ContactFormState = { success: false, message: "" };
 
 export function SellSpaceModal({ isOpen, onClose }: SellSpaceModalProps) {
     const [state, formAction, isPending] = useActionState(submitSpaceLead, initialState);
+
+    useEffect(() => {
+        if (state.success) trackEvent("generate_lead", { form: "vender_espacio" });
+    }, [state.success]);
 
     // Cierre con tecla Escape y bloqueo del scroll de fondo
     useEffect(() => {
